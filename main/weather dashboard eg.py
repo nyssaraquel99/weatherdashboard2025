@@ -489,3 +489,4 @@ def plot_air_quality(dic):
     axes[6].set_yticks(np.arange(0,20001,20000/5))
 
 
+
