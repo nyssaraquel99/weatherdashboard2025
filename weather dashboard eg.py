@@ -17,7 +17,7 @@ import matplotlib.ticker as ticker
 
 
 #api key
-key=""
+key="" #insert personal key
 
 def format_time(epoch,tz):
     """
@@ -487,4 +487,5 @@ def plot_air_quality(dic):
     for i in range(len(stacks_co)):
         axes[6].bar("CO",stacks_co[i],bottom=np.sum(stacks_co[:i],axis=0),color=colors[i])
     axes[6].set_yticks(np.arange(0,20001,20000/5))
+
 
